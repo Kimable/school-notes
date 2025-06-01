@@ -29,7 +29,7 @@
 
 /* For dark theme */
 [data-theme="dark"] {
-  --ifm-color-primary: #70c0b8;
+  --ifm-color-primary: #006064;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -90,6 +90,25 @@ h6 {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* Light mode footer */
+[data-theme="light"] .footer {
+  background-color: var(--ifm-color-primary) !important;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: var(--pink);
+}
+/* Dark mode footer */
+[data-theme="dark"] .footer {
+  background-color: var(--docusaurus-highlighted-code-line-bg);
+  color: #fff;
 }
 
 /* Fix for mobile responsiveness */
