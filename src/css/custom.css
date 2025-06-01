@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://unpkg.com/infima@latest/dist/css/default/default.css");
+
+/* CSS Custom Properties for consistent theming */
+:root {
+  --ifm-color-primary: #006064;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --primary-fade: #cbe5e4;
+  --orange: #fd7d56;
+  --pink: #fb5a6a;
+  --yellow: #f1be4d;
+  /* Custom font */
+  --ifm-font-family-base: "Nunito", system-ui, -apple-system, sans-serif;
+
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.65;
+  --ifm-font-weight-light: 300;
+  --ifm-font-weight-normal: 400;
+  --ifm-font-weight-semibold: 600;
+  --ifm-font-weight-bold: 700;
+}
+
+/* For dark theme */
+[data-theme="dark"] {
+  --ifm-color-primary: #70c0b8;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Nunito", sans-serif;
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Fix for code blocks in production */
+.prism-code {
+  font-size: var(--ifm-code-font-size);
+}
+
+/* Ensure proper spacing */
+.markdown > h2 {
+  margin-top: 2rem;
+}
+
+/* Fix sidebar issues */
+.theme-doc-sidebar-container {
+  display: block !important;
+}
+
+/* Ensure proper link styling */
+a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  margin-top: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Fix for mobile responsiveness */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+}
