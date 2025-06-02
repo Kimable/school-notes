@@ -152,13 +152,6 @@ const subjects = {
   ],
 };
 
-const stats = [
-  { value: "30+", label: "Study Notes" },
-  { value: "100+", label: "Students Helped" },
-  { value: "96%", label: "Success Rate" },
-  { value: "4.9/5", label: "Student Rating" },
-];
-
 function SubjectCard({ subject }) {
   return (
     <Link
@@ -199,30 +192,6 @@ export default function SubjectsPage() {
       title="All Subjects"
       description="Comprehensive IGCSE and A-Level study materials for Cambridge students"
     >
-      {/* Hero Section */}
-      <header className={styles.heroSection}>
-        <div className="container">
-          <h1 className={styles.heroTitle}>
-            Master Your{" "}
-            <span className={styles.highlight}>Cambridge Exams</span>
-          </h1>
-          <p className={styles.heroSubtitle}>
-            Comprehensive study notes, practice questions, and exam strategies
-            for IGCSE and A-Level success
-          </p>
-
-          {/* Stats */}
-          <div className={styles.statsGrid}>
-            {stats.map((stat, index) => (
-              <div key={index} className={styles.statCard}>
-                <div className={styles.statValue}>{stat.value}</div>
-                <div className={styles.statLabel}>{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </header>
-
       {/* Main Content */}
       <main className="container margin-vert--lg">
         {/* Tab Navigation */}

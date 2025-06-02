@@ -9,37 +9,58 @@ import styles from "./index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+  const stats = [
+    { value: "30+", label: "Study Notes" },
+    { value: "100+", label: "Students Helped" },
+    { value: "96%", label: "Success Rate" },
+    { value: "4.9/5", label: "Student Rating" },
+  ];
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="text--center">
-          Your go-to resource for free, simplified and structured notes for the
-          Cambridge IGCSE and A-Level syllabuses.
-        </p>
-        <p className="text--center">
-          We provide comprehensive notes, exam tips, and resources to help you
-          excel in your studies.
-        </p>
-        <p className="text--center">
-          We are actively adding notes, so be sure to check again after a few
-          days in case you don't find what you are looking for. Alternatively,
-          you can send us an email requesting the notes you need at
-          <a href="mailto:info@mayyelites.co.ke" style={{ color: "yellow" }}>
-            {" "}
-            info@mayyelites.co.ke
-          </a>{" "}
-          and we will do our best to provide them for you 😊.
-        </p>
-        <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/subjects">
-            📚 Start Learning Today
-          </Link>
+    <>
+      {/* Hero Section */}
+      <header className={styles.heroSection}>
+        <div className="container">
+          <h1 className={styles.heroTitle}>
+            Master Your{" "}
+            <span className={styles.highlight}>Cambridge Exams</span>
+          </h1>
+          <p className={styles.heroSubtitle}>
+            Comprehensive study notes, practice questions, and exam strategies
+            for IGCSE and A-Level success
+          </p>
+
+          <p style={{ fontSize: "1rem" }} className={styles.heroSubtitle}>
+            PLEASE NOTE: We are actively adding notes, so be sure to check again
+            after a few days in case you don't find what you are looking for.
+            Alternatively, you can send us an email requesting the notes you
+            need at
+            <a href="mailto:info@mayyelites.co.ke" style={{ color: "yellow" }}>
+              {" "}
+              info@mayyelites.co.ke
+            </a>{" "}
+            and we will do our best to provide them for you 😊.
+          </p>
+
+          {/* Stats */}
+          <div className={styles.statsGrid}>
+            {stats.map((stat, index) => (
+              <div key={index} className={styles.statCard}>
+                <div className={styles.statValue}>{stat.value}</div>
+                <div className={styles.statLabel}>{stat.label}</div>
+              </div>
+            ))}
+          </div>
+          <div style={{ marginTop: "2rem" }} className={styles.buttons}>
+            <Link
+              className="button button--secondary button--lg"
+              to="/subjects"
+            >
+              📚 Start Learning Today
+            </Link>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </>
   );
 }
 

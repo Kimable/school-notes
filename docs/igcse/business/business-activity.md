@@ -6,7 +6,7 @@ tags:
 description: "Complete notes on the Business Activity"
 ---
 
-#### **The Basic Economic Problem: Needs, Wants, Scarcity, and Opportunity Cost**
+## **The Basic Economic Problem: Needs, Wants, Scarcity, and Opportunity Cost**
 
 - **Needs** are essential goods or services for survival (e.g. food, water, shelter, clothing).
 
@@ -16,33 +16,35 @@ description: "Complete notes on the Business Activity"
 
 - Scarcity forces individuals, businesses, and governments to **make choices**, leading to **opportunity cost** – the next best alternative foregone when making a decision.
 
-#### **Factors of Production**
+## **Factors of Production**
 
-- The four **factors of production** used to produce goods and services are:
+Factors of production are **resources** needed to produce goods or services
 
-  - **Land** – natural resources (e.g. oil, minerals, farmland).
+The four **factors of production** used to produce goods and services are:
 
-  - **Labour** – human effort used in production.
+- **Land** – natural resources (e.g. oil, minerals, farmland).
 
-  - **Capital** – man-made resources used in production (e.g. machinery, tools).
+- **Labour** – human effort used in production.
 
-  - **Enterprise** – the risk-taking ability and organisation skills of entrepreneurs who combine the other three factors to produce goods/services.
+- **Capital** – man-made resources used in production (e.g. machinery, tools).
 
-#### **Specialisation and Division of Labour**
+- **Enterprise** – the risk-taking ability and organisation skills of entrepreneurs who combine the other three factors to produce goods/services.
 
-- **Specialisation** is when individuals, businesses, or economies focus on producing specific goods or services.
+## **Specialisation and Division of Labour**
 
-- **Division of labour** is a form of specialisation where the production process is divided into separate tasks, each performed by different workers.
+**Specialisation** is when individuals, businesses, or economies focus on producing specific goods or services.
 
-  **Advantages:**
+**Division of labour** is a form of specialisation where the production process is divided into separate tasks, each performed by different workers.
 
-  - Increases efficiency and productivity.
+**Advantages:**
 
-  - Reduces production costs and training time.
+- Increases efficiency and productivity.
 
-  - Allows workers to become skilled at specific tasks.
+- Reduces production costs and training time.
 
-           **Disadvantages:**
+- Allows workers to become skilled at specific tasks.
+
+         **Disadvantages:**
 
 - Work can become repetitive and boring.
 
@@ -50,7 +52,7 @@ description: "Complete notes on the Business Activity"
 
   - Reduced flexibility in the workforce.
 
-#### **The Purpose of Business Activity**
+## **The Purpose of Business Activity**
 
 - Businesses **combine scarce resources (factors of production)** to produce goods and services that satisfy people’s needs and wants.
 
@@ -64,7 +66,7 @@ description: "Complete notes on the Business Activity"
 
 - Without business activity, people would need to be self-sufficient, which limits efficiency and standard of living.
 
-#### **The Concept of Added Value**
+## **The Concept of Added Value**
 
 - **Added value** is the difference between the **selling price** of a product and the **cost of the materials and components** used to make it.
 
