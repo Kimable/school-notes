@@ -13,7 +13,7 @@ const subjects = {
         "Master algebra, geometry, statistics, and trigonometry with comprehensive notes and practice problems.",
       topics: ["Algebra", "Geometry", "Statistics", "Trigonometry"],
       difficulty: "Core & Extended",
-      link: "/notes/igcse/mathematics/bounds",
+      link: "/notes/igcse/mathematics/",
       color: "blue",
     },
     {
@@ -22,7 +22,7 @@ const subjects = {
         "Explore mechanics, waves, electricity, and modern physics with clear explanations and diagrams.",
       topics: ["Forces", "Waves", "Electricity", "Thermal Physics"],
       difficulty: "Core & Extended",
-      link: "/notes/igcse/physics/electromagnetic-induction",
+      link: "/notes/igcse/physics/",
       color: "purple",
     },
     {
@@ -37,7 +37,7 @@ const subjects = {
         "Operations Management",
       ],
       difficulty: "Core & Extended",
-      link: "/notes/igcse/business/business-activity",
+      link: "/notes/igcse/business/",
       color: "green",
     },
     {
@@ -51,7 +51,7 @@ const subjects = {
         "Economic Development",
       ],
       difficulty: "Core & Extended",
-      link: "/notes/igcse/economics/the-economic-problem",
+      link: "/notes/igcse/economics/",
       color: "orange",
     },
     // {
