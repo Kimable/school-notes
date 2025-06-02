@@ -101,19 +101,19 @@ const config = {
             items: [
               {
                 label: "Mathematics",
-                to: "/notes/igcse/mathematics/bounds",
+                to: "/notes/igcse/mathematics/",
               },
               {
                 label: "Physics",
-                to: "/notes/igcse/physics/electromagnetic-induction",
+                to: "/notes/igcse/physics/",
               },
               {
                 label: "Business Studies",
-                to: "/notes/igcse/business/business-activity",
+                to: "/notes/igcse/business/",
               },
               {
                 label: "Economics",
-                to: "/notes/igcse/economics/the-economic-problem",
+                to: "/notes/igcse/economics/",
               },
             ],
           },
