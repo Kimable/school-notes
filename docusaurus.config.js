@@ -83,7 +83,7 @@ const config = {
           // ... other items
 
           {
-            to: "https://blog.mayyelites.co.ke",
+            to: "https://mayyelites.co.ke/blog",
             label: "Blog",
             position: "left",
           },
@@ -139,11 +139,11 @@ const config = {
             items: [
               {
                 label: "Blog",
-                to: "https://blog.mayyelites.co.ke",
+                to: "https://mayyelites.co.ke/blog",
               },
               {
                 label: "Curious About Homeschooling?",
-                to: "https://blog.mayyelites.co.ke",
+                to: "https://mayyelites.co.ke/why-more-families-are-choosing-homeschooling-the-benefits-you-need-to-know/",
               },
             ],
           },
